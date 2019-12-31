@@ -283,7 +283,8 @@ It lists thirty eight parameters (excluding `argv` and `argc`).
      Apache server internals. It is commonly used by Apache `mod_rewrite`.  
      Used in frameworks. Introduce this variable also in Nginx.
 
-     [ref1 - WordPress source](https://core.svn.wordpress.org/branches/5.3/wp-load.php)
+     [ref1 - WordPress source](https://core.svn.wordpress.org/branches/5.3/wp-load.php)  
+     [ref2 - Nextcloud source](https://github.com/nextcloud/server/blob/master/lib/private/AppFramework/Http/Request.php#L709)
 
 2. [DOCUMENT_ROOT](http://httpd.apache.org/docs/current/mod/mod_cgi.html#env)
 
@@ -315,7 +316,8 @@ It lists thirty eight parameters (excluding `argv` and `argc`).
      [ref1 - Apache expression parser](https://httpd.apache.org/docs/2.4/expr.html#vars)  
      [ref2 - mod_rewrite](http://httpd.apache.org/docs/current/mod/mod_rewrite.html#rewritecond)  
      [ref3 - Laravel source](https://github.com/laravel/laravel/blob/master/server.php#L11)  
-     [ref4 - WordPress source](https://core.svn.wordpress.org/branches/5.3/)
+     [ref4 - WordPress source](https://core.svn.wordpress.org/branches/5.3/)  
+     [ref5 - Nextcloud source](https://github.com/nextcloud/server/) 
 
 ## Variables to skip from supplied Nginx config
 
