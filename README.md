@@ -357,7 +357,7 @@ Default Nginx install provides `/etc/nginx/fastcgi_params` file. As of writing i
      Enable if really needed.
 
      [ref1 - Apache expression parser](https://httpd.apache.org/docs/2.4/expr.html#vars)  
-     [ref1 - mod_rewrite](http://httpd.apache.org/docs/current/mod/mod_rewrite.html#rewritecond)
+     [ref2 - mod_rewrite](http://httpd.apache.org/docs/current/mod/mod_rewrite.html#rewritecond)
 
 4. [REMOTE_PORT](https://httpd.apache.org/docs/2.4/expr.html#vars)
 
