@@ -342,7 +342,7 @@ Default Nginx install provides `/etc/nginx/fastcgi_params` file. As of writing i
 
      > The IP address of the Virtual Host serving the request.
 
-     Apache `mod_cgi` internals.
+     Apache `mod_cgi` internals.  
      Enable if really needed.
 
      [ref1 - Apache Execution of CGI scripts](http://httpd.apache.org/docs/current/mod/mod_cgi.html#env)
