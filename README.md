@@ -25,6 +25,10 @@ Written on `Ubuntu Server 18.04.3 LTS`, `nginx/1.17.7`, `PHP 7.4.1`.
 ### Using [*evil if*](https://www.nginx.com/resources/wiki/start/topics/depth/ifisevil/)
 
 ```nginx
+    location / {
+        try_files $uri $uri/ /index.php$request_uri;
+    }
+
     location ~ [^/]\.php(/|$) {
         fastcgi_index   index.php;
         fastcgi_split_path_info ^(.+?\.php)(/.*)$;
@@ -38,6 +42,10 @@ Written on `Ubuntu Server 18.04.3 LTS`, `nginx/1.17.7`, `PHP 7.4.1`.
 ### Using `try_files $fastcgi_script_name`
 
 ```nginx
+    location / {
+        try_files $uri $uri/ /index.php$request_uri;
+    }
+
     location ~ [^/]\.php(/|$) {
         fastcgi_index   index.php;
         fastcgi_split_path_info ^(.+?\.php)(/.*)$;
