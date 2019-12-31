@@ -247,7 +247,7 @@ It will be assumed that ***Standard is required***, although obviously PHP appli
      This is needed for to align Nginx config with Apache behaviour as PHP relies on *the non-standard CGI environment variable REDIRECT_STATUS on redirected requests*.  
      As of version 5.3.0 PHP is built with `--enable-force-cgi-redirect` enabled by default and `cgi.force_redirect=1` is default.
 
-     [ref - cgi.force_redirect](https://www.php.net/manual/en/security.cgi-bin.force-redirect.php)
+     [ref1 - cgi.force_redirect](https://www.php.net/manual/en/security.cgi-bin.force-redirect.php)
 
 2. [HTTP_PROXY](https://httpoxy.org/#fix-now)
 
