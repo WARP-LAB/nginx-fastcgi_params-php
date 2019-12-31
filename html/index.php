@@ -131,14 +131,14 @@ th {position: sticky; top: 0; background: inherit;}
     </tr>
 </table>
 
-<h1>Standard CGI/1.1 Request Meta-Variables test</h1>
+<h1>Standard CGI/1.1 Request Meta-Variables</h1>
 <?php testParams($rfc3875); ?>
 
 <h1>Required extras</h1>
 <?php testParams($requiredExtra); ?>
 
 <h1>PHP Manual Language Reference Predefined Variables</h1>
-<p>Only those variables which are not in <em>Standard</em> and <em>Required extras</em> are printed.</p>
+<p>Only those variables which are not in <em>Standard</em> and <em>Required extras</em> arrays are printed.</p>
 <?php
   testParams(
     $phpManual,
@@ -148,8 +148,8 @@ th {position: sticky; top: 0; background: inherit;}
       )
     ); ?>
 
-<h1>All other $_SERVER varaibles</h1>
-<p>Only those variables which are not in <em>Standard</em>, <em>Required extras</em>, and <em>Predefined Variables</em> are printed.</p>
+<h1>All other $_SERVER variables</h1>
+<p>Only those variables which are not in <em>Standard</em>, <em>Required extras</em>, and <em>Predefined Variables</em> arrays are printed.</p>
 
 <table>
 <?php
