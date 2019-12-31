@@ -226,7 +226,7 @@ It will be assumed that ***Standard is required***, although obviously PHP appli
 
      Required.
 
-     `fastcgi_param   SCRIPT_FILENAME     $document_root$fastcgi_script_name; # ⚠️`
+     `fastcgi_param   SCRIPT_FILENAME     $document_root$fastcgi_script_name;`
 
      This is not in *Standard*, but one cannot live without it in PHP. Check `env_script_filename` and `script_path_translated` usage in PHP source.
 
