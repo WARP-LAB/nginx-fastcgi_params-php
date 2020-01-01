@@ -113,6 +113,7 @@ th {position: sticky; top: 0; background: inherit;}
   <li><a href="/foo/bar?q=1">/foo/bar?q=1</a></li>
   <li><a href="/foo/bar/?q=1">/foo/bar/?q=1</a></li>
   <li><a href="/index.php">/index.php</a></li>
+  <li><a href="/index.php?q=1">/index.php?q=1</a></li>
   <li><a href="/index.php/?q=1">/index.php/?q=1</a></li>
   <li><a href="/index.php/foo/bar">/index.php/foo/bar</a></li>
   <li><a href="/index.php/foo/bar?q=1">/index.php/foo/bar?q=1</a></li>
