@@ -100,13 +100,17 @@ It will be assumed that ***Standard is required***, although obviously PHP appli
 
      Required.
 
-     `fastcgi_param   CONTENT_LENGTH      $content_length;`
+     `fastcgi_param   CONTENT_LENGTH      $content_length if_not_empty;`
+     
+     `if_not_empty` *could* be omitted.
 
 3. [CONTENT_TYPE](https://tools.ietf.org/html/rfc3875#section-4.1.3)
 
      Required.
 
-     `fastcgi_param   CONTENT_TYPE        $content_type;`
+     `fastcgi_param   CONTENT_TYPE        $content_type if_not_empty;`
+     
+     `if_not_empty` *could* be omitted.
 
 4. [GATEWAY_INTERFACE](https://tools.ietf.org/html/rfc3875#section-4.1.4)
 
