@@ -102,9 +102,11 @@ It will be assumed that ***Standard is required***, although obviously PHP appli
 
      `fastcgi_param   CONTENT_LENGTH      $content_length if_not_empty;`
      
-     `if_not_empty` *could* be omitted.
+     `if_not_empty` *could* be omitted. Not checking strictly for body.
 
 3. [CONTENT_TYPE](https://tools.ietf.org/html/rfc3875#section-4.1.3)
+
+     > If the server receives a request with an attached entity but no Content-Type header field, it MAY attempt to determine the correct content type, otherwise it should omit this meta-variable.
 
      Required.
 
